@@ -6,14 +6,15 @@ import numpy
 
 if __name__ == '__main__':
 
-    # This algorithm is using pygame library to generate the game sprite animation,
+    # This code is using pygame library and opencv to create a video 
     # For each new frame, the current display (SCREEN) is converted to a string buffer and pushed
     # into a python list (VIDEO).
     # After pressing ESCAPE, all the recorded frames are converted to pygame surfaces before being
     # compressed into an AVI file
+    
     # ** NOTE: No sound will be added to the final AVI file.
-    # If you want to contribute and add some code to generate an AVI file with sound stream;
-    # feel free to post your own version.
+    #          If you want to contribute and add some code to generate an AVI file with sound stream;
+    #          feel free to post your own version.
 
     SCREENRECT = pygame.Rect(0, 0, 800, 1024)
     pygame.display.init()
@@ -34,7 +35,8 @@ if __name__ == '__main__':
         pygame.event.pump()
 
         keys = pygame.key.get_pressed()
-
+        
+        # *** PRESSE ESCAPE TO END THE LOOP ***
         if keys[pygame.K_ESCAPE]:
             STOP_GAME = True
 
