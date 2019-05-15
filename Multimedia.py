@@ -6,10 +6,10 @@ import numpy
 
 if __name__ == '__main__':
 
-    # This code is using pygame library and opencv to create a video 
-    # For each new frame, the current display (SCREEN) is converted to a string buffer and pushed
+    # This code is using pygame library and opencv to create a video file (AVI)
+    # For each new frame, the current display (SCREEN pygame.Surface) is converted to a string buffer and pushed
     # into a python list (VIDEO).
-    # After pressing ESCAPE, all the recorded frames are converted to pygame surfaces before being
+    # After pressing ESCAPE, all the recorded frames are converted back to pygame surfaces before being
     # compressed into an AVI file
     
     # ** NOTE: No sound will be added to the final AVI file.
