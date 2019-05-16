@@ -1,6 +1,8 @@
 # MultimediaVideo
 Multimedia Video with Pygame and Opencv 
 
+
+if __name__ == '__main__':
     # This algorithm is using pygame library to generate the game sprite animation,
     # For each new frame, the current display (SCREEN) is converted to a string buffer and pushed
     # into a python list (VIDEO), all the data are uncompressed and the memory can be filled very quickly
