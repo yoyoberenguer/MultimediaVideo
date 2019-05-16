@@ -6,10 +6,7 @@ You can find more detail with the file multimedia.py.
 
 ** Note
 
-To run the code multimedia.py you will need to install the follwing libraries :
-    - numpy 
-    - pygame
-    - opencv-python
+To run the code multimedia.py you will need to install the follwing libraries : numpy, pygame and opencv-python
     
 Furthermore, the code requires the Assets directory to be at the same location than the python file multimedia.py
 
