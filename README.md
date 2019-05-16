@@ -3,7 +3,9 @@ Multimedia Video with Pygame and Opencv
 
 The code below will show you how to use pygame and Opencv in order to capture frames for your game or animation.
 You can find more detail with the file multimedia.py. 
+
 ** Note
+
 To run the code multimedia.py you will need to install the follwing libraries :
     - numpy 
     - pygame
