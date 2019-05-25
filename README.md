@@ -3,6 +3,8 @@ Multimedia Video with Pygame and Opencv
 
 The code below will show you how to use pygame and Opencv in order to capture frames for your game or animation.
 You can find more details with the file multimedia.py. 
+If you want to contribute and add some code to generate an AVI file with sound stream
+feel free to post your own version.
 
 ** Note
 
