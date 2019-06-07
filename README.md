@@ -1,17 +1,18 @@
-# MultimediaVideo
-Multimedia Video with Pygame and Opencv 
+# Multimedia Video
+
+### Multimedia Video with Pygame and Opencv 
 
 The code below will show you how to use pygame and Opencv in order to capture frames for your game or animation.
-You can find more details with the file multimedia.py. 
-If you want to contribute and add some code to generate an AVI file with sound stream
-feel free to post your own version.
+You can find more details in the file multimedia.py. 
 
-** Note
+**Note:**  _If you want to contribute and add some code to generate an AVI file with sound stream
+feel free to post your own version._
 
 To run the code multimedia.py you will need to install the follwing libraries : numpy, pygame and opencv-python
     
 Furthermore, the code requires the Assets directory to be copied at the same location than the python file multimedia.py
 
+```python
 if __name__ == '__main__':
 
     # This algorithm is using pygame library to generate the game sprite animation,
@@ -133,3 +134,4 @@ if __name__ == '__main__':
         video.release()
         
     pygame.quit()
+    ```
