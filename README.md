@@ -1,18 +1,9 @@
-# Multimedia Video
+import cv2
+from cv2 import COLOR_RGBA2BGR
+import pygame
+import sys
+import numpy
 
-### Multimedia Video with Pygame and Opencv 
-
-The code below will show you how to use pygame and Opencv for capturing frames from your main loop game engine and 
-create a video file from it.
-
-**Note:**  _If you want to contribute and add some code to generate an AVI file with sound stream
-feel free to post your own version._
-
-To run the code multimedia.py you will need to install the follwing libraries : numpy, pygame and opencv-python
-    
-Furthermore, the code requires the Assets directory to be copied at the same location than the python file multimedia.py
-
-```python
 if __name__ == '__main__':
 
     # This algorithm is using pygame library to generate the game sprite animation,
@@ -38,7 +29,7 @@ if __name__ == '__main__':
 
     clock = pygame.time.Clock()
     FRAME = 0
-    cobra()
+    
     
 
     while not STOP_GAME:
@@ -134,4 +125,4 @@ if __name__ == '__main__':
         video.release()
         
     pygame.quit()
-    ```
+    
