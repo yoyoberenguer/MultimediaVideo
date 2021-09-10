@@ -1,3 +1,4 @@
+```
 import cv2
 from cv2 import COLOR_RGBA2BGR
 import pygame
@@ -125,4 +126,5 @@ if __name__ == '__main__':
         video.release()
         
     pygame.quit()
+    ```
     
