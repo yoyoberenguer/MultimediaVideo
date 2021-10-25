@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
         # *** UPDATE AND DRAW YOUR SPRITES HERE ***
 
-        # Cap the speed at 60 FPS
+        # Cap the speed at 30 FPS
         TIME_PASSED_SECONDS = clock.tick(30)
 
         pygame.display.flip()
